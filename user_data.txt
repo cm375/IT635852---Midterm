@@ -1,0 +1,47 @@
+appointment_id,patient_id,doctor_id,appointment_date,status
+300101,101,1101,2025-04-13 00:00:00,Pending Confirmation
+300102,102,1102,2025-02-12 00:00:00,Cancelled
+300103,103,1103,2025-03-30 00:00:00,Rescheduled
+300104,104,1105,2025-03-16 00:00:00,Confirmed
+300105,105,1108,2025-05-20 00:00:00,Pending Confirmation
+300106,106,1110,2025-06-22 00:00:00,Pending Confirmation
+300107,107,1101,2025-02-20 00:00:00,Cancelled
+300108,108,1108,2025-07-25 00:00:00,Rescheduled
+300109,109,1101,2025-08-26 00:00:00,Confirmed
+300110,110,1102,2025-04-28 00:00:00,Pending Confirmation
+
+billing_id,patient_id,amount,billing_date,payment_status
+200101,101,450.00,2025-02-10,Paid
+200102,102,320.75,2025-02-12,Pending
+200103,103,125.50,2025-02-14,Paid
+200104,104,678.90,2025-02-16,Partially Paid
+200105,105,1200.00,2025-02-20,Pending
+200106,106,480.40,2025-02-22,Pending
+200107,107,950.00,2025-02-20,Paid
+200108,108,1450.00,2025-02-24,Paid
+200109,109,370.25,2025-02-26,Partially Paid
+200110,110,1025.80,2025-02-28,Pending
+
+doctor_id,first_name,last_name,specialization,schedule
+1101,Amber,Johnson,Family Medicine,M:9:00a-3:00p, T:8:00a-4:00p, W:9:00a-1:00p, Thu:10:00a-5:00p, F:9:00a-12:00p
+1102,Michael,Brown,Cardiology,M:10:00a-5:00p, T:9:00a-4:00p, W:8:00a-3:00p, Thu:9:00a-12:00p, F:9:00a-2:00p
+1103,Sarah,Lee,Neurology,M:8:00a-12:00p, T:1:00p-5:00p, W:9:00a-4:00p, Thu:9:00a-1:00p, F:10:00a-3:00p
+1104,David,Miller,Orthopedics,M:9:00a-3:00p, T:8:00a-2:00p, W:10:00a-5:00p, Thu:9:00a-1:00p, F:8:00a-12:00p
+1105,Samantha,Thompson,Family Medicine,M:9:00a-3:00p, T:8:00a-4:00p, W:9:00a-1:00p, Thu:10:00a-5:00p, F:9:00a-12:00p
+1106,Lisa,Davis,Pediatrics,M:8:30a-2:30p, T:9:00a-4:00p, W:10:00a-3:00p, Thu:8:00a-1:00p, F:9:00a-12:00p
+1107,John,Garcia,Gastroenterology,M:8:00a-4:00p, T:9:00a-3:00p, W:1:00p-5:00p, Thu:9:00a-2:00p, F:8:00a-12:00p
+1108,James,Williams,Dermatology,M:10:00a-2:00p, T:9:00a-4:00p, W:8:00a-3:00p, Thu:1:00p-5:00p, F:9:00a-12:00p
+1109,Karen,Clark,Obstetrics and Gynecology,M:9:00a-1:00p, T:10:00a-5:00p, W:8:00a-12:00p, Thu:9:00a-3:00p, F:10:00a-2:00p
+1110,Robert,Anderson,Psychiatry,M:1:00p-4:00p, T:9:00a-3:00p, W:10:00a-2:00p, Thu:8:00a-12:00p, F:9:00a-1:00p
+
+patient_id,first_name,last_name,dob,gender,address,phone,insurance_info
+101,Emily,Clark,1987-03-22,Female,Address: 100 Maple Ave, City: Newark, State: NJ, Zip: 07106,(555)123-4567,Carrier: United Health, PolicyNo.: UH987654321, Insurance Plan: HMO
+102,Michael,Johnson,1992-11-04,Male,Address: 203 Pine Street, City: Atlanta, State: GA, Zip: 30301,(555)234-5678,Carrier: Blue Cross Blue Shield, PolicyNo.: BCBS123456789, Insurance Plan: PPO
+103,Sarah,Lee,1975-07-15,Female,Address: 500 Oak Road, City: Denver, State: CO, Zip: 80202,(555)345-6789,Carrier: Aetna, PolicyNo.: AET34567901, Insurance Plan: POS
+104,David,White,1980-02-28,Male,Address: 801 Cedar Lane, City: Dallas, State: TX, Zip: 75201,(555)456-7890,Carrier: Humana, PolicyNo.: HUM234567890, Insurance Plan: HMO
+105,Jessica,Davis,1990-09-10,Female,Address: 104 Birch St, City: Phoenix, State: AZ, Zip: 85001,(555)567-8901,Carrier: Cigna, PolicyNo.: CIG567890123, Insurance Plan: PPO
+106,William,Martinez,1998-12-05,Male,Address: 605 Pine Ave, City: Los Angeles, State: CA, Zip: 90001,(555)678-9012,Carrier: Kaiser Permanente, PolicyNo.: KP678901234, Insurance Plan: HMO
+107,Linda,Gonzalez,1982-06-25,Female,Address: 703 Elm Street, City: Miami, State: FL, Zip: 33101,(555)789-0123,Carrier: United Health, PolicyNo.: UH234567890, Insurance Plan: PPO
+108,James,Thomas,1979-01-12,Male,Address: 809 W 51st Street, City: New York, State: NY, Zip: 10001,(555)890-1234,Carrier: Anthem, PolicyNo.: ANTH234567891, Insurance Plan: POS
+109,Karen,Robinson,1984-08-18,Female,Address: 1205 Oakland St, City: Seattle, State: WA, Zip: 98101,(555)901-2345,Carrier: Blue Cross Blue Shield, PolicyNo.: BCBS987654321, Insurance Plan: PPO
+110,Robert,Harris,1995-04-13,Male,Address: 903 Cherry Blvd, City: San Francisco, State: CA, Zip: 94101,(555)012-3456,Carrier: Aetna, PolicyNo.: AET123456789, Insurance Plan: HMO
